@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Book Shop</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="./styles/form.css">
+    <link rel="stylesheet" href="./styles/check.css">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta name="theme-color" content="#FFFFFF" />
+    <meta charset="utf-8" />
+</head>
+
+<body>
+    <div class="app-wrapper">
+        <header>
+            <a href="../index.html">
+                ❮ go to main</a>
+        </header>
+        <main>
+            <form name="order">
+                <div class="form__input-wrapper">
+                    <div class="form__input">
+                        <span>name</span>
+                        <label for="name"></label>
+                        <input id='name' type="text" data-name='name' required
+                            pattern="[A-Za-z]{4,}" placeholder="Jhon" />
+                        <span class="form__error"
+                            data-name-error="error">Invalid name. Your name
+                            should contain 4 or more letters</span>
+                    </div>
+
+                    <div class="form__input">
+                        <span>surname</span>
+                        <label for="surname"></label>
+                        <input id='surname' type="text" data-surname='surname'
+                            required pattern="[A-Za-z]{5,}"
+                            placeholder="Smith" />
+                        <span class="form__error"
+                            data-surname-error="error">Invalid surname. Your
+                            surname
+                            should contain 5 or more letters</span>
+                    </div>
+
+                    <div class="form__input">
+                        <span>delivery date</span>
+                        <label for="date"></label>
+                        <input id='date' type="text" data-date='date' required
+                            placeholder="DD.MM.YY" />
+                        <span class="form__error"
+                            data-date-error="error">Invalid date or date is not
+                            fit the pattern. Example: 01.09.2024</span>
+                    </div>
+
+                    <div class="form__input">
+                        <span>street</span>
+                        <label for="street"></label>
+                        <input id='street' type="text" required
+                            data-street='street' />
+                        <span class="form__error"
+                            data-street-error="error">Invalid street form.
+                            Example: </span>
+                    </div>
+
+                    <div class="form__input">
+                        <span>house number</span>
+                        <label for="house"></label>
+                        <input id='house' type="text" required
+                            data-house='house' pattern="[0-9]+"
+                            placeholder="46" />
+                        <span class="form__error"
+                            data-house-error="error">Invalid house number. Valid
+                            number should be positive. Example: 23</span>
+                    </div>
+
+                    <div class="form__input">
+                        <span>flat number</span>
+                        <label for="flat"></label>
+                        <input id='flat' type="text" required data-flat='flat'
+                            placeholder="23-04" />
+                        <span class="form__error"
+                            data-flat-error="error">Invalid flat number. Valid
+                            number should be positive. Example: 23-04</span>
+                    </div>
+
+                    <span class="checkers">payment method</span>
+                    <div class="form__payment-wrapper">
+                        <div class="form__input-container">
+                            <input id='cash' type="radio" name="payment"
+                                value="cash" required checked />
+                            <div class="form__radio">
+                                <label class="form__radio_active"></label>
+                            </div>
+                            <label for="cash">cash</label>
+                        </div>
+                        <div class="form__input-container">
+                            <input id='card' type="radio" name="payment"
+                                value="card" required />
+                            <div class="form__radio">
+                                <label class="form__radio_active"></label>
+                            </div>
+                            <label for="card">card</label>
+                        </div>
+                    </div>
+                    <span class="checkers">choose 2 gifts</span>
+                    <div class="form__gifts-wrapper">
+                        <div class="form__input-container">
+                            <input type="checkbox" name="package" id="package">
+                            <div class="form__check">
+                                <label class="form__check_active">✔</label>
+                            </div>
+                            <label for="package">pack as a gift</label>
+                        </div>
+
+                        <div class="form__input-container">
+                            <input type="checkbox" name="postcard"
+                                id="postcard">
+                            <div class="form__check">
+                                <label class="form__check_active">✔</label>
+                            </div>
+                            <label for="postcard">add postcard</label>
+                        </div>
+
+                        <div class="form__input-container">
+                            <input type="checkbox" name="discount"
+                                id="discount">
+                            <div class="form__check">
+                                <label class="form__check_active">✔</label>
+                            </div>
+                            <label for="discount">provide 2% discount to the
+                                next
+                                time </label>
+                        </div>
+                        <div class="form__input-container">
+                            <input type="checkbox" name="pen" id="pen">
+                            <div class="form__check">
+                                <label class="form__check_active">✔</label>
+                            </div>
+                            <label for="pen">branded pen or pencil</label>
+                        </div>
+
+                    </div>
+                </div>
+                <button type="submit" disabled>Submit</button>
+            </form>
+            <div class="check">
+                <div class="check__content">
+                    <button class="cross"></button>
+                    <h2>order is processing</h2>
+                    <div class="check__info">
+                        <div class="check__info-point">
+                            <h4>Name:</h4>
+                            <p class="output name"></p>
+                        </div>
+                        <div class="check__info-point">
+                            <h4>Street:</h4>
+                            <p class="output street"></p>
+                        </div>
+                        <div class="check__info-point">
+                            <h4>House:</h4>
+                            <p class="output house"></p>
+                        </div>
+                        <div class="check__info-point">
+                            <h4>Flat:</h4>
+                            <p class="output flat"></p>
+                        </div>
+                        <div class="check__info-point">
+                            <h4>Delivery date:</h4>
+                            <p class="output delivery"></p>
+                        </div>
+                        <div class="check__info-point">
+                            <h4>Payment method:</h4>
+                            <p class="output payment"></p>
+                        </div>
+                        <div class="check__info-point">
+                            <h4>Additionally:</h4>
+                            <p class="output add"> </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+    </div>
+    </main>
+    </div>
+    <script src="./scripts/checkboxValidation.js"></script>
+    <script src="./scripts/dateValidation.js"></script>
+    <script src="./scripts/nameValidation.js"></script>
+    <script src="./scripts/flatHouseValidation.js"></script>
+    <script src="./scripts/streetValidation.js"></script>
+    <script src="./scripts/submitValidation.js"></script>
+</body>
+
+</html>

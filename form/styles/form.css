@@ -1,0 +1,163 @@
+header {
+	left: 0;
+	transform: translate(0);
+}
+
+header a {
+	display: block;
+	padding: 0.75rem 1rem;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	padding: 0 0.75rem;
+}
+
+.form__input-wrapper,
+.form__gifts-wrapper,
+.form__payment-wrapper {
+	display: flex;
+	flex-direction: column;
+}
+
+.form__gifts-wrapper,
+.form__payment-wrapper {
+	margin: 0.5rem 0 0;
+}
+
+.checkers {
+	margin: 1.5rem 0 0;
+}
+
+.form__input-container {
+	display: flex;
+	align-items: center;
+}
+
+form span {
+	font-size: 0.6rem;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.form__input-wrapper > :first-child {
+	margin: 0 0 0.25rem;
+}
+
+input {
+	padding: 0.25rem 0 0;
+	border: none;
+	border-bottom: 0.1rem solid var(--dark-900);
+	outline: none;
+	font-size: 1rem;
+}
+
+input[type="radio"] ~ label,
+input[type="checkbox"] ~ label {
+	cursor: pointer;
+	font-size: 0.875rem;
+	display: inline-block;
+	padding: 0.25rem 1.5rem;
+	margin: 0.1rem 0 0.1rem -1.5rem;
+	z-index: 1;
+}
+
+.form__radio,
+.form__check {
+	position: relative;
+	display: block;
+	border: 0.05rem solid var(--dark-900);
+	width: 0.84rem;
+	height: 0.84rem;
+	border-radius: 50%;
+	margin: 0 0.5rem;
+	transition: 0.25s;
+	margin: 0.4rem;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+	display: none;
+}
+
+.form__radio_active {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 0;
+	height: 0;
+	border-radius: 50%;
+	background: var(--light-100);
+	transition: 0.25s;
+}
+
+input[type="radio"]:checked ~ .form__radio > .form__radio_active {
+	background: var(--dark-900);
+	width: 0.42rem;
+	height: 0.42rem;
+}
+
+.form__check_active {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-40%, -60%);
+	font-size: 1rem;
+	font-weight: 900;
+	opacity: 0;
+	color: var(--dark-900);
+	background: none;
+	transition: 0.25s;
+}
+
+input[type="checkbox"]:checked ~ .form__check > .form__check_active {
+	opacity: 1;
+}
+
+form button {
+	align-self: center;
+	margin: 1.5rem 0 0;
+	border-bottom: 0.125rem solid var(--light-100);
+	transition: 0.25s;
+}
+
+form button:hover {
+	border-bottom: 0.125rem solid var(--dark-900);
+}
+
+form button:disabled {
+	border-bottom: 0.125rem solid var(--light-100);
+}
+
+main {
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 3rem 0;
+}
+
+.form__input {
+	display: flex;
+	flex-direction: column;
+	padding: 1.5rem 0 0;
+}
+
+.form__error {
+	text-transform: none;
+	color: red;
+	font-size: 0.75rem;
+	font-weight: 400;
+	margin: 0.25rem 0 0;
+	opacity: 0;
+}
+
+.form__error_visible {
+	opacity: 1;
+}
+
+.form__input_invalid {
+	border-bottom: 0.1rem solid red;
+}

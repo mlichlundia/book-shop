@@ -1,0 +1,51 @@
+.check {
+	position: fixed;
+	padding: 0 0.75rem;
+	color: var(--dark-900);
+	background: rgba(160, 160, 160, 0.11);
+	width: 100vw;
+	height: 100vh;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	opacity: 0;
+	pointer-events: none;
+	transition: 0.3s;
+}
+
+.check.open {
+	pointer-events: all;
+	background: rgba(3, 3, 3, 0.212);
+	display: flex;
+	opacity: 1;
+}
+
+.check h2 {
+	padding: 0 1rem 0 0;
+}
+
+.check__content {
+	position: relative;
+	padding: 1.5rem;
+	background: var(--light-100);
+	border-radius: 0.125rem;
+	display: flex;
+	flex-direction: column;
+}
+
+.check__info-point {
+	align-items: baseline;
+	display: flex;
+	margin: 0.75rem 0;
+}
+
+.check__info-point:last-child {
+	margin: 0.75rem 0 0;
+}
+
+.check__info-point p {
+	margin: 0 0 0 0.25rem;
+}

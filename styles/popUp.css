@@ -1,0 +1,54 @@
+.pop-up {
+	position: fixed;
+	padding: 0 1rem;
+	color: var(--dark-900);
+	background: rgba(160, 160, 160, 0.11);
+	width: 100vw;
+	height: 100vh;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	opacity: 0;
+	pointer-events: none;
+	transition: 0.3s;
+}
+
+.pop-up.open {
+	pointer-events: all;
+	background: rgba(3, 3, 3, 0.212);
+	display: flex;
+	opacity: 1;
+}
+
+.pop-up__content {
+	position: relative;
+	padding: 1.5rem;
+	background: var(--light-100);
+	border-radius: 0.125rem;
+	width: 40rem;
+	display: flex;
+}
+
+.pop-up__content img {
+	width: 15rem;
+	height: fit-content;
+	margin: 0 1rem 0 0;
+}
+
+.pop-up__content h3 {
+	margin: 0.25rem 0 0.75rem;
+}
+
+.pop-up__price {
+	font-weight: 700;
+	margin: 0 0 0.75rem;
+}
+
+@media screen and (min-width: 768px) {
+	.pop-up__content img {
+		width: 18rem;
+	}
+}

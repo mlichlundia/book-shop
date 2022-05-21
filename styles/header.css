@@ -1,0 +1,31 @@
+.menu__list {
+	display: flex;
+}
+
+.menu__list li {
+	position: relative;
+}
+
+.menu__list li a {
+	position: relative;
+	display: block;
+	padding: 0.75rem;
+	/* margin: 0 0.5rem; */
+}
+
+.bagIsFull::before {
+	content: "";
+	position: absolute;
+	top: 0.75rem;
+	right: 0.25rem;
+	width: 0.45rem;
+	height: 0.45rem;
+	background: red;
+	border-radius: 50%;
+}
+
+@media screen and (min-width: 600px) {
+	.menu__list li a {
+		margin: 0 0.5rem;
+	}
+}

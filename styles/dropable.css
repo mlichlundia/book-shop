@@ -1,0 +1,89 @@
+.droppable {
+	position: relative;
+	width: 16rem;
+	height: 10rem;
+	border: 0.125rem dashed var(--dark-700);
+	border-radius: 0.125rem;
+	margin: 0 auto 3rem;
+}
+
+.droppable__text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%);
+	font-size: 0.75rem;
+	font-weight: 700;
+	text-align: center;
+	color: var(--dark-700);
+}
+
+.droppable__text_success {
+	color: green;
+}
+
+.droppable__icon {
+	width: 2rem;
+	height: 2rem;
+	border: 0.15rem solid var(--dark-700);
+	border-radius: 50%;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -130%);
+}
+
+.droppable__icon::before {
+	content: "➔";
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-45%, -50%) rotate(90deg);
+	font-size: 1rem;
+	font-weight: 400;
+	color: var(--dark-700);
+}
+
+.droppable__icon_success {
+	border: 0.15rem solid green;
+}
+
+.droppable__icon_success::before {
+	content: "✓";
+	transform: translate(-50%, -50%);
+	font-size: 1rem;
+	font-weight: 700;
+	color: green;
+}
+
+.droppable.over {
+	border: 0.125rem dashed var(--dark-900);
+}
+
+.droppable__text.over {
+	color: var(--dark-900);
+}
+
+.droppable__icon.over {
+	border: 0.15rem solid var(--dark-900);
+}
+
+.over.droppable__icon::before {
+	color: var(--dark-900);
+}
+
+@media screen and (min-width: 600px) {
+	.droppable {
+		width: 31.5rem;
+	}
+	.droppable__text {
+		font-size: 1rem;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.droppable {
+		width: 46.5rem;
+		margin: 0 auto 3rem;
+	}
+}

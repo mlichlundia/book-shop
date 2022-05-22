@@ -2,7 +2,7 @@
 	position: relative;
 	width: 16rem;
 	height: 10rem;
-	border: 0.125rem dashed var(--dark-700);
+	border: 0.075rem dashed var(--dark-700);
 	border-radius: 0.125rem;
 	margin: 0 auto 3rem;
 }
@@ -25,7 +25,7 @@
 .droppable__icon {
 	width: 2rem;
 	height: 2rem;
-	border: 0.15rem solid var(--dark-700);
+	border: 0.075rem solid var(--dark-700);
 	border-radius: 50%;
 	position: relative;
 	top: 50%;
@@ -45,7 +45,7 @@
 }
 
 .droppable__icon_success {
-	border: 0.15rem solid green;
+	border: 0.075rem solid green;
 }
 
 .droppable__icon_success::before {
@@ -57,7 +57,7 @@
 }
 
 .droppable.over {
-	border: 0.125rem dashed var(--dark-900);
+	border: 0.075rem dashed var(--dark-900);
 }
 
 .droppable__text.over {
@@ -65,7 +65,7 @@
 }
 
 .droppable__icon.over {
-	border: 0.15rem solid var(--dark-900);
+	border: 0.075rem solid var(--dark-900);
 }
 
 .over.droppable__icon::before {

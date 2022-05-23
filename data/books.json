@@ -1,80 +1,80 @@
 [
 	{
 		"author": "Jules Verne",
-		"imageLink": "../assets/book.png",
-		"hoverImage": "../assets/1.png",
+		"imageLink": "./assets/book.png",
+		"hoverImage": "./assets/1.png",
 		"title": "All Around the Moon",
 		"price": 50,
 		"description": "Around the Moon(1870), Jules Verne's sequel to From the Earth to the Moon, is a science fiction novel which continues the trip to the Moon which was only partially described in the previous novel. It was later combined with From the Earth to the Moon to create A Trip to the Moon and Around It. From the Earth to the Moon and Around the Moon served as the basis for the film A Trip to the Moon.Fully illustrated. This is the 7th book in the Extraordinary Voyages Series. Around the Moon, Jules Verne's sequel to From the Earth to the Moon, is a science fiction novel continuing the trip to the moon which left the reader in suspense after the previous novel. Having been fired out of the giant Columbiad space gun, the Baltimore Gun Club's bullet-shaped projectile, along with its three passengers, Barbicane, Nicholl and Michel Ardan, begins the five-day trip to the moon."
 	},
 	{
 		"author": "Charlotte Bronte",
-		"imageLink": "../assets/book.png",
-		"hoverImage": "../assets/2.png",
+		"imageLink": "./assets/book.png",
+		"hoverImage": "./assets/2.png",
 		"title": "Jane Eyre",
 		"price": 60,
 		"description": "The novel is a first-person narrative from the perspective of the title character. Its setting is somewhere in the north of England, late in the reign of George III (1760–1820).[a] It has five distinct stages: Jane's childhood at Gateshead Hall, where she is emotionally and physically abused by her aunt and cousins; her education at Lowood School, where she gains friends and role models but suffers privations and oppression; her time as governess at Thornfield Hall, where she falls in love with her mysterious employer, Edward Fairfax Rochester; her time in the Moor House, during which her earnest but cold clergyman cousin, St. John Rivers, proposes to her; and ultimately her reunion with, and marriage to, her beloved Rochester. Throughout these sections, it provides perspectives on a number of important social issues and ideas, many of which are critical of the status quo."
 	},
 	{
 		"author": "John Milton",
-		"imageLink": "../assets/book.png",
-		"hoverImage": "../assets/3.png",
+		"imageLink": "./assets/book.png",
+		"hoverImage": "./assets/3.png",
 		"title": "Paradise Lost",
 		"price": 40,
 		"description": "John Milton was nearly sixty when he published Paradise Lost in 1667. The biographer John Aubrey (1626–1697) tells us that the poem was begun in about 1658 and finished in about 1663. However, parts were almost certainly written earlier, and its roots lie in Milton's earliest youth. Leonard speculates that the English Civil War interrupted Milton's earliest attempts to start his epic poem that would encompass all space and time."
 	},
 	{
 		"author": "Sir Edwin Arnold",
-		"imageLink": "../assets/book.png",
-		"hoverImage": "../assets/4.png",
+		"imageLink": "./assets/book.png",
+		"hoverImage": "./assets/4.png",
 		"title": "Seas and lands",
 		"price": 19,
 		"description": "Seas and Lands, reprinted by permission of the proprietors of the \"Daily Telegraph\" from letters published under the title \"By Sea and Land\" by Sir Edwin Arnold, London: Longmans, Green, and Co. 1891 printed by Ballantyne Press, Ballantyne, Hanson & Co., Edinburgh & London first edition - Beautiful Antique Books"
 	},
 	{
 		"author": "Hans Andersen",
-		"imageLink": "../assets/book.png",
-		"hoverImage": "../assets/5.png",
+		"imageLink": "./assets/book.png",
+		"hoverImage": "./assets/5.png",
 		"title": "Fairy Tales",
 		"price": 32,
 		"description": "It was Hans Christian Andersen who brought us the story of 'The Little Mermaid,' 'The Ugly Duckling,' 'The Emperor's New Clothes,' and other classic folk and fairy tales, legends and myths, such as the 'The Princess and the Pea' and 'Thumbelina.' Since Andersen wrote in the 1800s, Hollywood has taken a crack at his stories and innumerable illustrated works for children have been written based on them.  As is so often the case, the book is better than the movie. Andersen's original tales for children have appeal beyond the many abbreviated versions made since.  In this edition, the reader is invited into the imagination of Hans Christian Andersen."
 	},
 	{
 		"author": "Bram Stoker",
-		"imageLink": "../assets/book.png",
-		"hoverImage": "../assets/6.png",
+		"imageLink": "./assets/book.png",
+		"hoverImage": "./assets/6.png",
 		"title": "Dracula",
 		"price": 28,
 		"description": " As an epistolary novel, the narrative is related through letters, diary entries, and newspaper articles. It has no single protagonist, but opens with solicitor Jonathan Harker taking a business trip to stay at the castle of a Transylvanian noble, Count Dracula. Harker escapes the castle after discovering that Dracula is a vampire, and the Count moves to England and plagues the seaside town of Whitby. A small group, led by Abraham Van Helsing, hunt Dracula and, in the end, kill him."
 	},
 	{
 		"author": "Ray Bradbury",
-		"imageLink": "../assets/book.png",
-		"hoverImage": "../assets/7.png",
+		"imageLink": "./assets/book.png",
+		"hoverImage": "./assets/7.png",
 		"title": "The Hallowween Tree",
 		"price": 25,
 		"description": "The Halloween Tree by Ray Bradbury There is nothing that makes me want to pick up a book more than when it boasts a spooky Halloween cover! I simply cannot resist books decorated with glowing jack-o-lanterns, decrepit haunted houses, wailing ghosts, spooky scarecrows, creepy corn fields, or festive fall foliage! Anything orange and black will immediately catch my eye, and I especially love older paperbacks with Halloween themes!"
 	},
 	{
 		"author": "Finbar Hawkins",
-		"imageLink": "../assets/book.png",
-		"hoverImage": "../assets/8.png",
+		"imageLink": "./assets/book.png",
+		"hoverImage": "./assets/8.png",
 		"title": "Witch",
 		"price": 38,
 		"description": "After witnessing the brutal murder of her mother by witch-hunters, Evey vows to avenge her and track down the killers. Fury burns in her bright and strong. But she has promised her mother that she will keep Dill, her little sister, safe. As the lust for blood and retribution rises to fever pitch, will Evey keep true to the bonds of sisterhood and to the magick that is her destiny?"
 	},
 	{
 		"author": "Jules Verne",
-		"imageLink": "../assets/book.png",
-		"hoverImage": "../assets/9.png",
+		"imageLink": "./assets/book.png",
+		"hoverImage": "./assets/9.png",
 		"title": "Twenty Thousand Leagues Under the Seas",
 		"price": 26,
 		"description": "The novel was originally serialized from March 1869 through June 1870 in Pierre-Jules Hetzel's fortnightly periodical, the Magasin d'éducation et de récréation. A deluxe octavo edition, published by Hetzel in November 1871, included 111 illustrations by Alphonse de Neuville and Édouard Riou.[1] The book was widely acclaimed on its release and remains so; it is regarded as one of the premier adventure novels and one of Verne's greatest works, along with Around the World in Eighty Days and Journey to the Center of the Earth. Its depiction of Captain Nemo's underwater ship, the Nautilus, is regarded as ahead of its time, since it accurately describes many features of today's submarines, which in the 1860s were comparatively primitive vessels."
 	},
 	{
 		"author": "Jules Verne",
-		"imageLink": "../assets/book.png",
-		"hoverImage": "../assets/10.png",
+		"imageLink": "./assets/book.png",
+		"hoverImage": "./assets/10.png",
 		"title": "Adventures in the Land of the Behemoth",
 		"price": 33,
 		"description": "Want to be the hero of your own adventure? Then Wrath of the Behemoth: An Adventure Quest Game Book is for you! In a mysterious and barren land, a great evil has broken loose, trying to seize control of one of the vast continents of the world. Behemoth's wrath destroyed crops, turned people's lives into nightmares, and robbed the kingdom of its powerful secret treasure, the Ice Crystals."

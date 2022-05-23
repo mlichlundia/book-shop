@@ -284,7 +284,7 @@ class Bag {
 		total.classList.add("bag__total")
 		confirmButton.classList.add("confirm")
 
-		confirmButton.setAttribute("href", "../form/form.html")
+		confirmButton.setAttribute("href", "./form/form.html")
 
 		totalPrice.insertAdjacentText("beforeend", this.calcTotal())
 		totalText.insertAdjacentText("beforeend", "total:")

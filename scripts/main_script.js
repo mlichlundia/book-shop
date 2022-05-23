@@ -386,7 +386,7 @@ class BagPoint {
 
 //fetch data
 function getData() {
-	fetch("../data/books.json")
+	fetch("./data/books.json")
 		.then(res => res.json())
 		.then(data => books.push(...data))
 		.then(() => appWrapper.append(createLayout()))

@@ -11,7 +11,6 @@ dateInput.addEventListener("blur", () => {
 })
 
 function isValid(str) {
-	console.log(str)
 	const dateArr = str.toString().split(".")
 	const dateStr = `${+dateArr[2]}/${+dateArr[1]}/${+dateArr[0]}`
 
@@ -62,7 +61,6 @@ function isValid(str) {
 		throwDateError()
 		return
 	}
-	console.log(dateArr)
 
 	hideDateError()
 }

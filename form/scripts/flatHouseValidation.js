@@ -31,7 +31,6 @@ flatInput.addEventListener("input", () => {
 	if (reg.test(flatInput.value)) {
 		hideNumError("flat")
 	}
-	console.log(flatInput)
 })
 
 flatInput.addEventListener("blur", () => {

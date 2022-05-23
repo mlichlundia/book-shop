@@ -540,4 +540,4 @@ function addScript(src) {
 }
 
 //add slider functionality
-addScript("../scripts/slider.js")
+addScript("./scripts/slider.js")

@@ -2,18 +2,19 @@ const streetInput = document.querySelector("#street")
 const streetError = document.querySelector("[data-street-error]")
 
 streetInput.addEventListener("input", () => {
-	const reg = /[A-Za-z\s0-9]{5,}/
-	if (reg.test(streetInput.value)) {
+	const reg = /^(([A-Za-z0-9]+\s)+)?[A-Za-z0-9]+$/
+
+	if (reg.test(streetInput.value) && streetInput.value.length >= 5) {
 		hideStreetError()
 	}
 })
 
 streetInput.addEventListener("blur", () => {
-	const reg = /[A-Za-z\s0-9]{5,}/
-	if (!reg.test(streetInput.value)) {
-		throwStreetError()
-	} else {
+	const reg = /^(([A-Za-z0-9]+\s)+)?[A-Za-z0-9]+$/
+	if (reg.test(streetInput.value) && streetInput.value.length >= 5) {
 		hideStreetError()
+	} else {
+		throwStreetError()
 	}
 })
 

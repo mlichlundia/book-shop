@@ -536,6 +536,8 @@ function createLayout() {
 function addScript(src) {
 	const script = document.createElement("script")
 	script.setAttribute("src", src)
+	script.setAttribute("defer", true)
+
 	return body.insertAdjacentElement("beforeend", script)
 }
 
